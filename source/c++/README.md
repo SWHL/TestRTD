@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="https://github.com/SWHL/RapidVideOCR/blob/320ab5b3798047f9a22d3eb6d32077525ba7c3fd/assets/logo.png"  width="75%" height="75%">
+   <img src="https://raw.githubusercontent.com/SWHL/RapidVideOCR/320ab5b3798047f9a22d3eb6d32077525ba7c3fd/assets/logo.png"  width="75%" height="75%">
 </div>
 <br/>
 
