@@ -12,5 +12,5 @@ $(document).ready(function(){
     // logo_element.href=my_custom_logo_url;
     let div_logo = document.getElementsByClassName("wy-side-nav-search")[0];
     let a_logo = div_logo.getElementsByTagName("a");
-    a_logo[0].href="{repo_url}";
+    a_logo[0].href="www.baidu.com";
 });
