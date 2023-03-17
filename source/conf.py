@@ -48,12 +48,17 @@ html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
-    'titles_only': False
+    'titles_only': False,
+    'header_links': "Top 1|http://example.com/one, Top 2|http://example.com/two",
+    'footer_links': ",".join([
+        "About Us|http://example.com/",
+        "Contact|http://example.com/contact",
+        "Legal|http://example.com/dev/null",
+    ]),
 }
 
 html_static_path = ['_static']
