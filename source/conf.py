@@ -44,6 +44,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'analytics_anonymize_ip': False,
     'logo_only': True,
+    "logo_url": "https://readthedocs.org/",
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
