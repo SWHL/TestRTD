@@ -66,3 +66,7 @@ html_logo = "./_static/logo.png"
 
 # def setup(app):
 #     app.add_js_file(None, body=SET_LOGO_URL_JS)
+
+html_js_files = [
+    'my_custom.js',
+]
