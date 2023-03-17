@@ -40,9 +40,7 @@ language = 'zh_CN'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
 html_theme_options = {
     'analytics_anonymize_ip': False,
     'logo_only': False,
@@ -56,3 +54,6 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
+html_static_path = ['_static']
+html_logo = "./_static/logo.png"
