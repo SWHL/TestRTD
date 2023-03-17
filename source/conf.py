@@ -58,11 +58,11 @@ html_theme_options = {
 html_static_path = ['_static']
 html_logo = "./_static/logo.png"
 
-SET_LOGO_URL_JS = f"""
-let div_logo = document.getElementsByClassName("wy-side-nav-search")[0];
-let a_logo = div_logo.getElementsByTagName("a");
-a_logo[0].href="{repo_url}";
-"""
+# SET_LOGO_URL_JS = f"""
+# let div_logo = document.getElementsByClassName("wy-side-nav-search")[0];
+# let a_logo = div_logo.getElementsByTagName("a");
+# a_logo[0].href="{repo_url}";
+# """
 
-def setup(app):
-    app.add_js_file(None, body=SET_LOGO_URL_JS)
+# def setup(app):
+#     app.add_js_file(None, body=SET_LOGO_URL_JS)
