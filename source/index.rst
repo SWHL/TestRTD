@@ -8,10 +8,9 @@ Welcome to RapidVideOCR's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-   c++/index
-   python/index
+   C++/index
+   Python/index
 
 
 Indices and tables
