@@ -6,6 +6,12 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+from pathlib import Path
+import sys
+
+sys.path.append(str(Path(__file__).resolve().parent / 'src'))
+
+
 project = 'Test'
 copyright = '2023,'
 author = 'Test'
@@ -19,6 +25,13 @@ extensions = [
     'myst_parser',
     "sphinxcontrib.mermaid",
     "sphinx_copybutton",  # 复制按钮
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.napoleon'
 ]
 
 source_suffix = {
@@ -57,15 +70,6 @@ html_theme_options = {
 
 html_static_path = ['_static']
 html_logo = "./_static/logo.png"
-
-# SET_LOGO_URL_JS = f"""
-# let div_logo = document.getElementsByClassName("wy-side-nav-search")[0];
-# let a_logo = div_logo.getElementsByTagName("a");
-# a_logo[0].href="{repo_url}";
-# """
-
-# def setup(app):
-#     app.add_js_file(None, body=SET_LOGO_URL_JS)
 
 html_js_files = [
     'my_custom.js',
