@@ -11,6 +11,7 @@ Welcome to RapidVideOCR's documentation!
 
    C++/index
    Python/index
+   modules
 
 
 Indices and tables

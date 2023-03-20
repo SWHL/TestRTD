@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-from pathlib import Path
+import os
 import sys
 
-sys.path.append(str(Path(__file__).resolve().parent / 'src'))
+sys.path.insert(0, os.path.abspath('../src'))
 
 
 project = 'Test'
@@ -24,14 +24,15 @@ repo_url = 'www.baidu.com'
 extensions = [
     'myst_parser',
     "sphinxcontrib.mermaid",
-    "sphinx_copybutton",  # 复制按钮
+    "sphinx_copybutton",
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode'
 ]
 
 source_suffix = {
