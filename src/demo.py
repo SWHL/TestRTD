@@ -25,6 +25,8 @@ class Demo1():
         Returns:
             bool: 返回值说明
 
+        .. note::
+            An example of intersphinx is this: you **cannot** use :mod:`pickle` on this class.
         """
         return True
 
