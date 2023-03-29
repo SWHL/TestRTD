@@ -2,7 +2,12 @@
 
 
 class Demo1():
-    """类的功能说明"""
+    """类的功能说明
+
+    .. note::
+        An example of intersphinx is this: you **cannot** use :mod:`pickle` on this class.
+
+    """
 
     def add(self, a, b):
         """两个数字相加，并返回结果"""
