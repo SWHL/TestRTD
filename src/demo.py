@@ -14,7 +14,8 @@ class Demo1():
         return a+b
 
     def google_style(arg1, arg2):
-        """函数功能. 主要强调的是:meth:`arg1`与:meth:`args2`  :meth:`to`
+        """函数功能. 主要强调的是 :meth:`arg1`与 :meth:`args2`  :meth:`to`
+        我是中国人 :code:`arg1` 和 :code:`arg2`
 
         函数功能说明.
 
