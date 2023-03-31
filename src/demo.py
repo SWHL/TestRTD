@@ -14,7 +14,7 @@ class Demo1():
         return a+b
 
     def google_style(arg1, arg2):
-        """函数功能. `paddle2onnx https://github.com/PaddlePaddle/Paddle2ONNX`_ 工具转换模型为onnx格式
+        """函数功能. :role:`paddle2onnx <https://github.com/PaddlePaddle/Paddle2ONNX>` 工具转换模型为onnx格式
         函数功能说明.
 
         Args:
