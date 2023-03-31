@@ -14,7 +14,7 @@ class Demo1():
         return a+b
 
     def google_style(arg1, arg2):
-        """函数功能.
+        """函数功能. 主要强调的是:any:`arg1`与:any:`args2`
 
         函数功能说明.
 
